@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font: bold;
+  margin-left: 15px;
+}
+.navbar {
+  display: flex;
+}
+.logo {
+  height: 25px;
+  margin-top: 15px;
+}
+.inicio a{
+  display: flex;
+  background-color: black;
+  text-decoration: none;
+  height: 50px;
+  width: 100px;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+    
+
+
+.hoy a{
+    display: flex;
+    text-decoration: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+
+.hoy a:hover{
+    background-color: gray;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+}
+
+.siguiendo a{
+    display: flex;
+    text-decoration: none;
+    height: 50px;
+    width: 150px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+.siguiendo a:hover{
+    display: flex;
+    background-color: gray;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buscar input{
+    display: flex;
+    background-size: 25px;
+    background-position-x: 10px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-image:  url(../proyecto/lupa.png) ;
+    background-color: rgb(238, 231, 231);
+    height: 50px;
+    width: 500px;
+    border-radius: 25px;
+    outline: 0px solid transparent;
+    border-style: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding-left: 50px;
+    
+    
+}
+.buscar input:hover{
+    background-color: rgb(233, 224, 224);
+}
+.campana a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px ;
+}
+.campana a:hover{
+    
+    background-color: rgb(233, 224, 224);
+    
+}
+.mensaje a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+.mensaje a:hover{
+    background-color: rgb(233, 224, 224) ;
+}
+
+.ante_log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+.log a{
+    background-color:rgb(235, 227, 227) ;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    text-decoration: none;
+    
+
+}
+.log a:hover{
+    background-color: rgb(207, 195, 195);
+    height: 50px;
+    width: 50px;
+}
+.flecha a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+.flecha a:hover{
+    background-color:rgb(207, 195, 195) ;
+    border-radius: 25px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  @media screen and (max-width: 800px) {
+      .column{
+          flex: 50%;
+          max-width: 50%;
+      }
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
